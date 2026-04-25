@@ -1,12 +1,12 @@
-from fastapi import HTTPException
-from PIL import Image
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI, UploadFile, File, HTTPException
 from torchvision import transforms
 import streamlit as st
 import torch.nn as nn
+from PIL import Image
 import uvicorn
 import torch
 import io
+
 
 
 app = FastAPI()
